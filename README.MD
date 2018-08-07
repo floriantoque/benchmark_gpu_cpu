@@ -1,4 +1,4 @@
-##Benchmark GPU vs CPU (Python 3)
+## Benchmark GPU vs CPU (Python 3)
 
 Machine 1  
   * GPU: GEFORCE GTX 1080 Ti (12G)  
