@@ -1,6 +1,9 @@
 import os
 import sys
-#os.environ["CUDA_VISIBLE_DEVICES"]="1"
+# select the GPU to use: 0, 1 or 2 if 3GPUs
+# if not commented must use tf.device("/gpu:0")
+# if commented use all GPU available 
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 import tensorflow as tf
 import numpy as np
 import time
@@ -19,7 +22,6 @@ sess = tf.Session(config=config)
 
 sess.run(tf.global_variables_initializer())
 iters = 10
-
 # pre-warming
 sess.run(product.op)
 
