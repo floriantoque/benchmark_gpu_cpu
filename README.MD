@@ -25,8 +25,22 @@ CPU: 8192 x 8192 matmul took: 5.75 sec, 191.34 G ops/sec
 
 Machine 2  
 GPU: 8192 x 8192 matmul took: 0.08 sec, 13581.87 G ops/sec  
-CPU: 8192 x 8192 matmul took: 39.51 sec, 27.83 G ops/sec  
+CPU: 8192 x 8192 matmul took: 39.51 sec, 27.83 G ops/sec   
 
+### 2) VGG 16
 
+#### A) Keras  
+Python script : keras_VGG16
+
+100 iterations  
+batch_size = 16 
+x = 224*224*3, zeros
+y = 1000, zeros
+
+Machine 1  
+GPU: Time per iteration: 158.891 ms  
+
+Machine 2  
+GPU: 
 
 
