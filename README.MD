@@ -34,7 +34,7 @@ Python script : keras_VGG16
 
 100 iterations  
 batch_size = 16 
-x = 224*224*3, zeros
+x = 224x224x3, zeros
 y = 1000, zeros
 
 Machine 1  
