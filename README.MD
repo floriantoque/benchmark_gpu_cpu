@@ -8,8 +8,8 @@ Machine 1
 Machine 2  
   * GPU: Tesla V100 (32GB)    
   * CPU: Intel(R) Xeon(R) Silver 4116 CPU @ 2.10GHz  
-  * Python 3.6.5, Tensorflow version : 1.8.0, Numpy version: 1.14.3
-
+  * env Tensorflow : Python 3.6.5, Tensorflow version : 1.8.0, Numpy version: 1.14.3
+  * env Keras : Python 3.6.5, Tensorflow version : 1.0.1
 
 
 ### 1) Matrix multiplication
