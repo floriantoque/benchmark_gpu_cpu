@@ -34,8 +34,8 @@ Python script : keras_VGG16
 
 100 iterations    
 batch_size = 16    
-x = 224x224x3, zeros      
-y = 1000, zeros      
+x = 224x224x3, zeros        
+y = 1000, zeros        
 
 Machine 1   
 GPU: (1 GPU) Time per iteration: 158.891 ms    
@@ -48,13 +48,13 @@ GPU: (3 GPU) Time per iteration: 357.761 ms
 #### B) Keras  (batch_size 256, lot of operations per iteration)
 Python script : keras_VGG16
 
-10 iterations
-batch_size = 256
-x = 224x224x3, zeros
-y = 1000, zeros
+10 iterations   
+batch_size = 256  
+x = 224x224x3, zeros  
+y = 1000, zeros  
 
 Machine 1
-GPU: (1 GPU) Time per iteration: 158.891 ms
+GPU: (1 GPU) ResourceExhaustedError
 
 Machine 2  (env Keras)
 GPU: (1 GPU) Time per iteration: 1332.705 ms   

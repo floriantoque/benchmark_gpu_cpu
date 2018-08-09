@@ -1,3 +1,19 @@
+'''
+GPU benchmark script
+
+Model used VGG16, Keras
+
+Optional parameters
+--n_iter: Number of iterations
+--batch_size
+--gpus: Number of GPUs
+
+'''
+
+
+
+
+
 import numpy as np
 import time
 
