@@ -53,10 +53,10 @@ batch_size = 256
 x = 224x224x3, zeros  
 y = 1000, zeros  
 
-Machine 1
-GPU: (1 GPU) ResourceExhaustedError
+Machine 1  
+GPU: (1 GPU) ResourceExhaustedError  
 
-Machine 2  (env Keras)
-GPU: (1 GPU) Time per iteration: 1332.705 ms   
-GPU: (2 GPU) Time per iteration: 831.424 ms   
-GPU: (3 GPU) Time per iteration: 823.483 ms 
+Machine 2  (env Keras)  
+GPU: (1 GPU) Time per iteration: 1332.705 ms    
+GPU: (2 GPU) Time per iteration: 831.424 ms    
+GPU: (3 GPU) Time per iteration: 823.483 ms   
