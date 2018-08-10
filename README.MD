@@ -21,11 +21,11 @@ Matrix2 : shape(8192,8192), values 1
 
 Machine 1  
 GPU: (1 GPU) 8192 x 8192 matmul took: 0.23 sec, 4805.72 G ops/sec  
-CPU: 8192 x 8192 matmul took: 5.75 sec, 191.34 G ops/sec  
+CPU: (1 CORE) 8192 x 8192 matmul took: 18.50 sec, 59.44 G ops/sec  
 
 Machine 2  (env Tensorflow)
 GPU: (1 GPU) 8192 x 8192 matmul took: 0.08 sec, 13581.87 G ops/sec  
-CPU: 8192 x 8192 matmul took: 39.51 sec, 27.83 G ops/sec   
+CPU: (1 CORE) 8192 x 8192 matmul took: 39.51 sec, 27.83 G ops/sec   
 
 ### 2) VGG 16
 

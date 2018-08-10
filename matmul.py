@@ -1,9 +1,8 @@
 import os
 import sys
-# select the GPU to use: 0, 1 or 2 if 3GPUs
-# if not commented must use tf.device("/gpu:0")
-# if commented use all GPU available 
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
+
+os.environ["OMP_NUM_THREADS"] = "1"
+
 import tensorflow as tf
 import numpy as np
 import time
