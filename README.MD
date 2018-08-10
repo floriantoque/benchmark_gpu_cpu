@@ -2,12 +2,12 @@
 
 Machine 1  
   * GPU: GEFORCE GTX 1080 Ti (12GB)    
-  * CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz  
+  * CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz  (8 cores)   
   * Python 3.5, Keras : 2.2.2, Tensorflow version : 1.9.0, Numpy version: 1.13.1  
           
 Machine 2  
   * GPU: Tesla V100 (32GB)    
-  * CPU: Intel(R) Xeon(R) Silver 4116 CPU @ 2.10GHz  
+  * CPU: Intel(R) Xeon(R) Silver 4116 CPU @ 2.10GHz  (24 cores)  
   * env Tensorflow : Python 3.6.5, Tensorflow version : 1.8.0, Numpy version: 1.14.3
   * env Keras : Python 3.6.5, Keras : 2.2.2, Tensorflow version : 1.9.0
 
